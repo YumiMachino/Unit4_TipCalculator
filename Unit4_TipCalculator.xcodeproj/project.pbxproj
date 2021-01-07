@@ -13,6 +13,10 @@
 		AE4E2C5F25A6E07500314FE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4E2C5D25A6E07500314FE4 /* Main.storyboard */; };
 		AE4E2C6125A6E07A00314FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4E2C6025A6E07A00314FE4 /* Assets.xcassets */; };
 		AE4E2C6425A6E07A00314FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4E2C6225A6E07A00314FE4 /* LaunchScreen.storyboard */; };
+		AE4E2C7225A6ED2100314FE4 /* billAmountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4E2C7125A6ED2100314FE4 /* billAmountTextField.swift */; };
+		AEB24C6D25A793F50082A45F /* CalculateTipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB24C6C25A793F50082A45F /* CalculateTipButton.swift */; };
+		AEB24C7025A797AC0082A45F /* UIView+ ConstraintLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB24C6F25A797AC0082A45F /* UIView+ ConstraintLayout.swift */; };
+		AEB24C7325A7A5E30082A45F /* tipAmountLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB24C7225A7A5E30082A45F /* tipAmountLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AE4E2C6025A6E07A00314FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4E2C6325A6E07A00314FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE4E2C6525A6E07A00314FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4E2C7125A6ED2100314FE4 /* billAmountTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = billAmountTextField.swift; sourceTree = "<group>"; };
+		AEB24C6C25A793F50082A45F /* CalculateTipButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateTipButton.swift; sourceTree = "<group>"; };
+		AEB24C6F25A797AC0082A45F /* UIView+ ConstraintLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ ConstraintLayout.swift"; sourceTree = "<group>"; };
+		AEB24C7225A7A5E30082A45F /* tipAmountLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipAmountLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				AE4E2C5725A6E07500314FE4 /* AppDelegate.swift */,
 				AE4E2C5925A6E07500314FE4 /* SceneDelegate.swift */,
 				AE4E2C5B25A6E07500314FE4 /* ViewController.swift */,
+				AEB24C7225A7A5E30082A45F /* tipAmountLabel.swift */,
+				AE4E2C7125A6ED2100314FE4 /* billAmountTextField.swift */,
+				AEB24C6F25A797AC0082A45F /* UIView+ ConstraintLayout.swift */,
+				AEB24C6C25A793F50082A45F /* CalculateTipButton.swift */,
 				AE4E2C5D25A6E07500314FE4 /* Main.storyboard */,
 				AE4E2C6025A6E07A00314FE4 /* Assets.xcassets */,
 				AE4E2C6225A6E07A00314FE4 /* LaunchScreen.storyboard */,
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE4E2C7225A6ED2100314FE4 /* billAmountTextField.swift in Sources */,
 				AE4E2C5C25A6E07500314FE4 /* ViewController.swift in Sources */,
+				AEB24C7025A797AC0082A45F /* UIView+ ConstraintLayout.swift in Sources */,
+				AEB24C6D25A793F50082A45F /* CalculateTipButton.swift in Sources */,
 				AE4E2C5825A6E07500314FE4 /* AppDelegate.swift in Sources */,
 				AE4E2C5A25A6E07500314FE4 /* SceneDelegate.swift in Sources */,
+				AEB24C7325A7A5E30082A45F /* tipAmountLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
