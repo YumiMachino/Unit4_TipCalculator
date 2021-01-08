@@ -20,7 +20,7 @@ class TextField: UITextField {
     override init(frame: CGRect){
         super.init(frame: CGRect(x: 100, y: 400, width: 200, height: 50))
        
-        self.backgroundColor = .cyan
+        self.backgroundColor = .white
         self.font = UIFont.init(name: "HelveticaNeue-CondensedBlack", size: 18.0)
         self.translatesAutoresizingMaskIntoConstraints = false
         self.textAlignment = .center

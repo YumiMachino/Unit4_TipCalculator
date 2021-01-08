@@ -24,7 +24,7 @@ class calculateTipButton: UIButton {
         self.setTitleColor(.systemBlue, for: .normal)
         self.setTitleColor(.systemTeal, for: .highlighted)
         self.titleLabel?.font = UIFont(name: "Inter-Regular", size: 16)
-        self.backgroundColor = .systemPink
+        self.backgroundColor = .cyan
     }
     
     required init?(coder: NSCoder) {
